@@ -19,8 +19,6 @@ training_stages = [
     (0.9, 50_000, 0),  # 90% of track, ETK 800
     (1.0, 50_000, 0),  # 100% of track, ETK 800
     (1.0, 50_000, 0),  # Additional training on full track
-    (1.0, 50_000, 0),  # Additional training on full track
-    (1.0, 50_000, 0),  # Additional training on full track
 ]
 
 # Vehicle names for reference
@@ -101,7 +99,5 @@ for stage_idx, (lap_percent, timesteps, vehicle_index) in enumerate(training_sta
         model.save(save_path)
         print(f"Saved model to {save_path}")
 
-        # Clea up both environment and model
+        # Close BeamNG connection
         env.close()
-        del model
-        del env
