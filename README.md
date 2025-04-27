@@ -48,13 +48,7 @@ This will load a pre-trained model and run it in the BeamNG environment.
 
 You can view a demonstration video of the trained agent below:
 
----
-
-**Demo Video:**
-
 [![Demo Video](https://img.youtube.com/vi/-dIdvcbgOhM/0.jpg)](https://youtu.be/-dIdvcbgOhM)
-
----
 
 ## Training the Agent
 
@@ -67,8 +61,3 @@ python training_progressive.py
 ```
 
 This will save trained models in the `models/` directory and logs in the `logs/` directory.
-
-## Notes
-
-- Adjust the `simple_test.py` script as needed for your experiments.
-- For more information, see the documentation in the [BeamNG.gym repository](https://github.com/kikutabryan/BeamNG.gym.git).
