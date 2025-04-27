@@ -1,6 +1,6 @@
 # RL Racecar Project
 
-This project demonstrates reinforcement learning for autonomous racecar driving using BeamNG and Stable Baselines3.
+This project demonstrates reinforcement learning using Soft Actor-Critic for autonomous racecar driving using BeamNG and Stable Baselines3.
 
 ## Setup Instructions
 
