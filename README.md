@@ -52,10 +52,7 @@ You can view a demonstration video of the trained agent below:
 
 **Demo Video:**
 
-<video width="640" height="360" controls>
-  <source src="videos/demo_lap.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Demo Video](https://img.youtube.com/vi/-dIdvcbgOhM/0.jpg)](https://youtu.be/-dIdvcbgOhM)
 
 ---
 
